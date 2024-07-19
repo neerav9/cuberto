@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    padding:0;
+}
+.logo img{
+    margin-right: 1%;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+span{
+    color:white;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.content_navbar >img{
+    width: 5%;
+    margin-left: 1%;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.content_navbar{
+    align-items:center ;
+    padding:0.5%;
+    background-color:crimson;
+    display: flex;
+}
+.navlist{
+    display: flex;
+    margin-left: 30%;
+}
+.nav-link{
+    font-weight: 900;
+    font-size: x-large;
+    position:relative;
+    text-decoration: none;
+    color:white;
+    transition:color 0.5s ease;
+    padding-bottom:10px;
+}
+.nav-link:hover{
+    color:gold;
+}
+.nav-link:hover::after{
+    transform:scaleX(1);
+    transform-origin: bottom left;
+    transition: transform 0.5s ease;
+}
+.nav-link::after{
+    content:'';
+    position: absolute;
+    width:100%;
+    height:4px;
+    bottom:0;
+    left:0;
+    background-color:gold;
+    transform:scaleX(0);
+    transform-origin:bottom right;
+    transition:transform 0.5s ease;
+
+}
+.title{
+    margin-left:40%;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.title a{
+    text-decoration: none;
+    color:rgb(255, 255, 0);
+}
+
+.product-container {
+    width: 90%;
+    margin:2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.product {
+    /* border: 1px solid #ddd;
+    border: 2px solid black;
+    background-color: antiquewhite; */
+    padding: 10px;
+    margin-bottom: 6rem;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition:transform 0.5s ease;
+}
+.product:hover{
+    transform:scale(1.05)
+}
+
+.product img {
+    mix-blend-mode:multiply;
+    max-width: 100%;
+    height: 70%; 
+    object-fit: cover;
+}
+
+.product a {
+    margin-top: 10px; 
+    font-size: 1.2em; 
+    text-decoration: none;
+    color:black;
+    transition:transform 0.5s ease;
+}
+.product a:hover
+{
+    transform:scale(1.05)
+}
+.product p {
+    margin-top: 5px; 
+    font-size: 2em;
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.cfilter,.pfilter{
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    font-size: large;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: Outfit;
+}

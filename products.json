@@ -1,0 +1,574 @@
+{
+  "products": [
+    {
+      "id":"1",
+      "productName": "Leather Jacket",
+      "price": 1499.99,
+      "photo": "https://m.media-amazon.com/images/I/51KKaVomMsL.jpg",
+      "category": "Fashion",
+      "rating": 4.5,
+      "company": "StylishWear",
+      "quantity": 10,
+      "description": "Stay warm in style with this classic leather jacket. Perfect for any occasion, whether it's a casual outing or a night out on the town."
+    },
+    {
+      "id":"2",
+      "productName": "Wireless Headphones",
+      "price": 1999.99,
+      "photo": "https://m.media-amazon.com/images/I/31AaztMLKLL.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Electronics",
+      "rating": 4.7,
+      "company": "SoundMax",
+      "quantity": 15,
+      "description": "Immerse yourself in your favorite tunes without the hassle of tangled wires. These wireless headphones deliver crisp, clear sound for an unparalleled listening experience."
+    },
+    {
+      "id":"3",
+      "productName": "Organic Apples",
+      "price": 158.00,
+      "photo": "https://m.media-amazon.com/images/I/81AK2aQ8VvL.SX679.jpg",
+      "category": "Groceries",
+      "rating": 4.9,
+      "company": "GreenFarm",
+      "quantity": 20,
+      "description": "Enjoy the crisp, refreshing taste of organically grown apples. Packed with nutrients and bursting with flavor, these apples are perfect for snacking or baking."
+    },
+    {
+      "id":"4",
+      "productName": "Denim Jeans",
+      "price": 779.00,
+      "photo": "https://m.media-amazon.com/images/I/81WzIbilc9L.SY879.jpg",
+      "category": "Fashion",
+      "rating": 4.2,
+      "company": "DenimCo",
+      "quantity": 25,
+      "description": "Classic denim never goes out of style. These jeans are designed for comfort and durability, making them a wardrobe staple for any fashion-forward individual."
+    },
+    {
+      "id":"5",
+      "productName": "Samsung - S23",
+      "price": 41255.99,
+      "photo": "https://m.media-amazon.com/images/I/617l83eY1rL.SX679.jpg",
+      "category": "Electronics",
+      "rating": 4.8,
+      "company": "Samsung",
+      "quantity": 30,
+      "description": "Experience the latest in smartphone technology with the Samsung S23. Packed with features and powered by innovation, this device is a game-changer."
+    },
+    {
+      "id":"6",
+      "productName": "Almond Milk",
+      "price": 249.99,
+      "photo": "https://m.media-amazon.com/images/I/61R5vEEZMrL.SX679.jpg",
+      "category": "Groceries",
+      "rating": 4.6,
+      "company": "NutriDairy",
+      "quantity": 35,
+      "description": "Indulge in the creamy goodness of almond milk. Packed with essential nutrients and free from lactose, it's a delicious and healthy alternative to dairy milk."
+    },
+    {
+      "id":"7",
+      "productName": "Sneakers",
+      "price": 749.00,
+      "photo": "https://m.media-amazon.com/images/I/71cflgAolqL.SY695.jpg",
+      "category": "Fashion",
+      "rating": 4.4,
+      "company": "SportyFeet",
+      "quantity": 40,
+      "description": "Step up your style game with these trendy sneakers. Whether you're hitting the gym or running errands, these shoes provide comfort and style in every step."
+    },
+    {
+      "id":"8",
+      "productName": "Lenovo IdeaPad",
+      "price": 62933.99,
+      "photo": "https://m.media-amazon.com/images/I/41rwAUpDLjL.SY300_SX300_QL70_FMwebp.jpg",
+      "category": "Electronics",
+      "rating": 4.9,
+      "company": "Lenovo",
+      "quantity": 45,
+      "description": "Powerful performance meets sleek design with the Lenovo IdeaPad. Whether you're working or gaming, this laptop delivers a seamless experience every time."
+    },
+    {
+      "id":"9",
+      "productName": "Whole Wheat Bread",
+      "price": 50,
+      "photo": "https://m.media-amazon.com/images/I/8178GrVTpfS.SY879.jpg",
+      "category": "Groceries",
+      "rating": 4.5,
+      "company": "Modern",
+      "quantity": 50,
+      "description": "Start your day right with a slice of wholesome whole wheat bread. Made with the finest ingredients, it's the perfect addition to any breakfast or lunch."
+    },
+    {
+      "id":"10",
+      "productName": "T-Shirt",
+      "price": 459.00,
+      "photo": "https://m.media-amazon.com/images/I/71rzKMArJZL.SY879.jpg",
+      "category": "Fashion",
+      "rating": 4.3,
+      "company": "CasualClothes",
+      "quantity": 55,
+      "description": "Keep it casual yet stylish with this classic t-shirt. Made from soft, breathable fabric, it's perfect for everyday wear or layering under your favorite jacket."
+    },
+    {
+      "productName": "Bluetooth Speaker",
+      "price": 1856.00,
+      "photo": "https://m.media-amazon.com/images/I/41mtPtOAkUL.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Electronics",
+      "rating": 4.6,
+      "company": "Tribit",
+      "quantity": 60,
+      "description": "Take the party wherever you go with this portable Bluetooth speaker. With crisp, clear sound and long-lasting battery life, it's perfect for outdoor gatherings or indoor listening sessions."
+    },
+    {
+      "productName": "Bananas",
+      "price": 65.00,
+      "photo": "https://m.media-amazon.com/images/I/51mBYmqSl6L.SX679.jpg",
+      "category": "Groceries",
+      "rating": 4.8,
+      "company": "TropicalFruits",
+      "quantity": 100,
+      "description": "Get your daily dose of potassium with these ripe and delicious bananas. Perfect for snacking, smoothies, or adding to your breakfast bowl."
+    },
+    {
+      "productName": "Dress",
+      "price": 429.00,
+      "photo": "https://m.media-amazon.com/images/I/71FnJpw5J2L.SY879.jpg",
+      "category": "Fashion",
+      "rating": 4.4,
+      "company": "ElegantWear",
+      "quantity": 80,
+      "description": "Make a statement with this elegant dress. Whether it's a night out or a special occasion, this dress is sure to turn heads with its timeless style and sophistication."
+    },
+    {
+      "productName": "Tablet",
+      "price": 23999.00,
+      "photo": "https://m.media-amazon.com/images/I/71LRY1j6UHL.SX679.jpg",
+      "category": "Electronics",
+      "rating": 4.7,
+      "company": "Xiaomi",
+      "quantity": 50,
+      "description": "Stay connected on the go with the Xiaomi tablet. With its high-resolution display and powerful performance, it's perfect for work, entertainment, and everything in between."
+    },
+    {
+      "productName": "Oatmeal",
+      "price": 148.00,
+      "photo": "https://m.media-amazon.com/images/I/71jZfTZ3FeL.SX679.jpg",
+      "category": "Groceries",
+      "rating": 4.6,
+      "company": "Saffola",
+      "quantity": 120,
+      "description": "Start your day right with a hearty bowl of oatmeal. Packed with fiber and nutrients, it's a wholesome and delicious breakfast option for the whole family."
+    },
+    {
+      "productName": "Cricket Cap",
+      "price": 99.00,
+      "photo": "https://m.media-amazon.com/images/I/51vLcgbNbnL.jpg",
+      "category": "Fashion",
+      "rating": 4.1,
+      "company": "HeadGear",
+      "quantity": 70,
+      "description": "Show your support for your favorite team with this stylish cricket cap. Whether you're at the stadium or watching from home, it's the perfect accessory for any cricket fan."
+    },
+    {
+      "productName": "Smartwatch",
+      "price": 1099.99,
+      "photo": "https://m.media-amazon.com/images/I/71Q8czKqSIL.SX679.jpg",
+      "category": "Electronics",
+      "rating": 4.8,
+      "company": "Noise",
+      "quantity": 90,
+      "description": "Stay connected and stay active with this sleek smartwatch from Noise. With its built-in fitness tracking and stylish design, it's the perfect companion for your busy lifestyle."
+    },
+    {
+      "productName": "Greek Yogurt",
+      "price": 44.49,
+      "photo": "https://m.media-amazon.com/images/I/51aKvShNPEL.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Groceries",
+      "rating": 4.7,
+      "company": "Epigamia",
+      "quantity": 110,
+      "description": "Indulge in the creamy goodness of Greek yogurt. With its rich texture and tangy flavor, it's the perfect snack or breakfast option for health-conscious individuals."
+    },
+    {
+      "productName": "Sweater - Men",
+      "price": 664.00,
+      "photo": "https://m.media-amazon.com/images/I/61x7IntWJWL.SY879.jpg",
+      "category": "Fashion",
+      "rating": 4.3,
+      "company": "WarmWear",
+      "quantity": 85,
+      "description": "Stay cozy and stylish with this classic men's sweater. Perfect for layering or wearing on its own, it's a versatile addition to any wardrobe."
+    },
+    {
+      "productName": "Toy Rush Retro Game Stick Console",
+      "price": 399.99,
+      "photo": "https://m.media-amazon.com/images/I/51xn5k0M-oL.SX679.jpg",
+      "category": "Electronics",
+      "rating": 4.9,
+      "company": "ToyRush",
+      "quantity": 60,
+      "description": "Relive the nostalgia of classic gaming with the Toy Rush Retro Game Stick Console. With a wide selection of built-in games, it's fun for gamers of all ages."
+    },
+    {
+      "productName": "Orange Juice",
+      "price": 165.00,
+      "photo": "https://m.media-amazon.com/images/I/411k6JbiWlL.SX342_SY445.jpg",
+      "category": "Groceries",
+      "rating": 4.5,
+      "company": "Real",
+      "quantity": 105,
+      "description": "Start your day with a burst of vitamin C with Real orange juice. Made from 100% real oranges, it's the perfect way to refresh and rehydrate."
+    },
+    {
+      "productName": "Winter Coat for Women",
+      "price": 4999.00,
+      "photo": "https://m.media-amazon.com/images/I/71KIIggNNdL.SY879.jpg",
+      "category": "Fashion",
+      "rating": 4.6,
+      "company": "ColdWear",
+      "quantity": 75,
+      "description": "Stay warm and stylish during the colder months with this chic winter coat for women. Featuring a cozy faux fur lining and a flattering silhouette, it's a must-have for any wardrobe."
+    },
+    {
+      "productName": "Digital Camera",
+      "price": 7999.99,
+      "photo": "https://m.media-amazon.com/images/I/81I4nkIvhfL.SX679.jpg",
+      "category": "Electronics",
+      "rating": 4.7,
+      "company": "Kodak",
+      "quantity": 40,
+      "description": "Capture life's precious moments with the Kodak digital camera. With its high-resolution sensor and advanced features, it's perfect for amateur photographers and professionals alike."
+    },
+    {
+      "productName": "Peanut Butter",
+      "price": 386.99,
+      "photo": "https://m.media-amazon.com/images/I/417narO0w8L.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Groceries",
+      "rating": 4.4,
+      "company": "Pintola",
+      "quantity": 90,
+      "description": "Indulge in the creamy goodness of Pintola Peanut Butter. Made from high-quality peanuts, it's a nutritious and delicious spread for your toast, sandwiches, or smoothies."
+    },
+    {
+      "productName": "Sunglasses",
+      "price": 499.00,
+      "photo": "https://m.media-amazon.com/images/I/51ceM9++X3L.SX679.jpg",
+      "category": "Fashion",
+      "rating": 4.2,
+      "company": "Vincent Chase",
+      "quantity": 70,
+      "description": "Protect your eyes in style with these trendy sunglasses from Vincent Chase. Whether you're lounging by the pool or strolling through the city, these sunglasses are a must-have accessory."
+    },
+    {
+      "productName": "Electric Kettle",
+      "price": 1219.00,
+      "photo": "https://m.media-amazon.com/images/I/31iKMkOV-DL.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Electronics",
+      "rating": 4.5,
+      "company": "Wipro",
+      "quantity": 55,
+      "description": "Boil water quickly and efficiently with the Wipro electric kettle. Whether you're making tea, coffee, or instant noodles, this kettle is a convenient addition to any kitchen."
+    },
+    {
+      "productName": "Cheddar Cheese",
+      "price": 413.99,
+      "photo": "https://m.media-amazon.com/images/I/71V2tR3EWgL.SX679.jpg",
+      "category": "Groceries",
+      "rating": 4.8,
+      "company": "Kraft",
+      "quantity": 85,
+      "description": "Add a burst of flavor to your dishes with Kraft cheddar cheese. Made from high-quality ingredients, it's perfect for melting over nachos, sandwiches, or pasta."
+    },
+    {
+      "productName": "Backpack",
+      "price": 359.00,
+      "photo": "https://m.media-amazon.com/images/I/810s53kR8tL.SY879.jpg",
+      "category": "Fashion",
+      "rating": 4.4,
+      "company": "Skybags",
+      "quantity": 65,
+      "description": "Stay organized on the go with the Skybags backpack. With its spacious compartments and durable construction, it's perfect for school, work, or travel."
+    },
+    {
+      "productName": "Electric Toothbrush",
+      "price": 299.00,
+      "photo": "https://m.media-amazon.com/images/I/51Zp71w1jiL.SX679.jpg",
+      "category": "Electronics",
+      "rating": 4.7,
+      "company": "Sonic Toothbrushes",
+      "quantity": 80,
+      "description": "Maintain your oral health with the Sonic Toothbrushes electric toothbrush. With its advanced technology and gentle bristles, it provides a thorough clean for a brighter smile."
+    },
+    {
+      "productName": "Granola Bars",
+      "price": 159.99,
+      "photo": "https://m.media-amazon.com/images/I/71dofrkMebL.SX679_PIbundle-12,TopRight,0,0_AA679SH20.jpg",
+      "category": "Groceries",
+      "rating": 4.6,
+      "company": "UNIBIC",
+      "quantity": 100,
+      "description": "Fuel your adventures with UNIBIC granola bars. Packed with nuts, seeds, and dried fruits, they're a delicious and nutritious snack for any time of day."
+    },
+    {
+      "productName": "Blazer",
+      "price": 2889.00,
+      "photo": "https://m.media-amazon.com/images/I/51hv1xphWzL.SY879.jpg",
+      "category": "Fashion",
+      "rating": 4.5,
+      "company": "Peter England",
+      "quantity": 75,
+      "description": "Elevate your look with the Peter England blazer. Whether it's a formal event or a casual outing, this blazer adds a touch of sophistication to any outfit."
+    },
+    {
+      "productName": "Bluetooth Mouse",
+      "price": 599.99,
+      "photo": "https://m.media-amazon.com/images/I/31atRA0+d+L.SY300_SX300.jpg",
+      "category": "Electronics",
+      "rating": 4.6,
+      "company": "Petronics",
+      "quantity": 60,
+      "description": "Work or play with ease using the Petronics Bluetooth mouse. With its ergonomic design and wireless connectivity, it's a versatile and convenient accessory for your computer."
+    },
+    {
+      "productName": "Cereal",
+      "price": 359.49,
+      "photo": "https://m.media-amazon.com/images/I/71NjqLtmfnL.SX679.jpg",
+      "category": "Groceries",
+      "rating": 4.7,
+      "company": "Nestle",
+      "quantity": 95,
+      "description": "Start your day on a delicious note with Nestle cereal. Packed with whole grains and essential vitamins, it's a wholesome and tasty breakfast option for the whole family."
+    },
+    {
+      "productName": "Running Shoes",
+      "price": 725.00,
+      "photo": "https://m.media-amazon.com/images/I/718bSZO8++L.SX695.jpg",
+      "category": "Fashion",
+      "rating": 4.4,
+      "company": "Sparx",
+      "quantity": 85,
+      "description": "Stay active and comfortable with Sparx running shoes. Whether you're hitting the gym or going for a jog, these shoes provide the support and cushioning you need."
+    },
+    {
+      "productName": "Wireless Charger",
+      "price": 1999.99,
+      "photo": "https://m.media-amazon.com/images/I/31j5EM1h9fL.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Electronics",
+      "rating": 4.5,
+      "company": "Eller Sante",
+      "quantity": 70,
+      "description": "Charge your devices quickly and wirelessly with the Eller Sante wireless charger. Simply place your smartphone on the charging pad for hassle-free charging at home or on the go."
+    },
+    {
+      "productName": "Eggs",
+      "price": 199.99,
+      "photo": "https://m.media-amazon.com/images/I/31tbuj9qMgL.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Groceries",
+      "rating": 4.9,
+      "company": "FarmFresh",
+      "quantity": 120,
+      "description": "Get farm-fresh eggs delivered straight to your doorstep. These high-quality eggs are perfect for cooking, baking, or enjoying on their own."
+    },
+    {
+      "productName": "Scarf",
+      "price": 299.00,
+      "photo": "https://m.media-amazon.com/images/I/81CTW0fgawL.SX679.jpg",
+      "category": "Fashion",
+      "rating": 4.3,
+      "company": "Stole_Villa",
+      "quantity": 90,
+      "description": "Add a pop of color to your outfit with this stylish scarf from Stole_Villa. Made from soft and lightweight fabric, it's the perfect accessory for any season."
+    },
+    {
+      "productName": "HDMI Cable",
+      "price": 549.99,
+      "photo": "https://m.media-amazon.com/images/I/416P2qO9QkL.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Electronics",
+      "rating": 4.6,
+      "company": "Honeywell",
+      "quantity": 80,
+      "description": "Connect your devices with ease using the Honeywell HDMI cable. Whether you're streaming movies or playing games, this cable delivers high-quality audio and video."
+    },
+    {
+      "productName": "Pasta",
+      "price": 150.00,
+      "photo": "https://m.media-amazon.com/images/I/71xd5RitKvL.SX679.jpg",
+      "category": "Groceries",
+      "rating": 4.5,
+      "company": "Sorrentina",
+      "quantity": 100,
+      "description": "Whip up delicious pasta dishes with Sorrentina pasta. Made from durum wheat semolina, it cooks up perfectly al dente every time."
+    },
+    {
+      "productName": "Hat",
+      "price": 270.00,
+      "photo": "https://m.media-amazon.com/images/I/31MWL2EXBQL.jpg",
+      "category": "Fashion",
+      "rating": 4.2,
+      "company": "HeadWear",
+      "quantity": 70,
+      "description": "Stay shaded from the sun in style with the HeadWear hat. Whether you're at the beach or exploring the city, this hat is a fashionable and functional accessory."
+    },
+    {
+      "productName": "Portable Speaker",
+      "price": 999.99,
+      "photo": "https://m.media-amazon.com/images/I/41rwffmOj9L.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Electronics",
+      "rating": 4.7,
+      "company": "BoAt",
+      "quantity": 85,
+      "description": "Take your music anywhere with the BoAt portable speaker. With its compact design and powerful sound, it's perfect for parties, picnics, or outdoor adventures."
+    },
+    {
+      "productName": "Milk",
+      "price": 75.49,
+      "photo": "https://m.media-amazon.com/images/I/71roCBgy4rL.SX679.jpg",
+      "category": "Groceries",
+      "rating": 4.8,
+      "company": "Govind",
+      "quantity": 110,
+      "description": "Enjoy the goodness of fresh milk from Govind dairy. Packed with essential nutrients, it's a nutritious beverage for the whole family."
+    },
+    {
+      "productName": "Jeans",
+      "price": 579.00,
+      "photo": "https://m.media-amazon.com/images/I/81aR8YPL+bL.SY879.jpg",
+      "category": "Fashion",
+      "rating": 4.4,
+      "company": "BlueDenim",
+      "quantity": 75,
+      "description": "Stay stylish and comfortable in BlueDenim jeans. With their classic design and comfortable fit, they're a wardrobe staple for any fashion-forward individual."
+    },
+    {
+      "productName": "USB Drive",
+      "price": 678.00,
+      "photo": "https://m.media-amazon.com/images/I/218dF057ahL.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Electronics",
+      "rating": 4.5,
+      "company": "Hp",
+      "quantity": 60,
+      "description": "Store and transfer your files with the Hp USB drive. With its high-speed data transfer and durable construction, it's perfect for work, school, or personal use."
+    },
+    {
+      "productName": "Brown Bread",
+      "price": 50.49,
+      "photo": "https://m.media-amazon.com/images/I/41kJjvJI9BL.SX300_SY300_QL70_FMwebp.jpg",
+      "category": "Groceries",
+      "rating": 4.7,
+      "company": "Britannia",
+      "quantity": 95,
+      "description": "Start your day on a healthy note with Britannia brown bread. Made from whole grains, it's a nutritious and delicious addition to your breakfast or lunch."
+    },
+    {
+      "productName": "Analog watch",
+      "price": 1197.00,
+      "photo": "https://m.media-amazon.com/images/I/71nPiHLKCeL.SX679.jpg",
+      "category": "Fashion",
+      "rating": 4.6,
+      "company": "Fastrack",
+      "quantity": 80,
+      "description": "Add a timeless accessory to your wrist with the Fastrack analog watch. With its classic design and reliable movement, it's a stylish and functional accessory for any occasion."
+    },
+    {
+      "productName": "Smart TV",
+      "price": 40990.99,
+      "photo": "https://m.media-amazon.com/images/I/81MRU+3RJLL.SL1500.jpg",
+      "category": "Electronics",
+      "rating": 4.9,
+      "company": "Sony",
+      "quantity": 50,
+      "description": "Immerse yourself in entertainment with the Sony Smart TV. With its stunning picture quality and smart features, it's the perfect addition to any living room or home theater."
+    },
+    {
+    "productName": "EAR BUDS",
+    "price": 700.99,
+    "photo": "https://m.media-amazon.com/images/I/51gLk-I2N9L.SX679.jpg",
+    "category": "Electronics",
+    "rating": 4.9,
+    "company": "ptron",
+    "quantity": 50,
+    "description": "TWS Earbuds with AptSense 38ms Low Latency Mobile Gaming | Stereo Sound Quality with Deep Bass | 40 Hrs Total Playtime with the Charging Case | Ergo-fit Bluetooth Earphones with Touch Controls"
+    },
+    {
+      "productName": "Key Board",
+      "price": 1700.99,
+      "photo": "https://m.media-amazon.com/images/I/61xdBb0IM6L.SX679.jpg",
+      "category": "Electronics",
+      "rating": 4.9,
+      "company": "portronics",
+      "quantity": 50,
+      "description": "Bluetooth 5.3 & 2.4 GHz Receiver: Switch between devices effortlessly with both 2.4 GHz wireless and Bluetooth connectivity options. Seamlessly connect to your desktop, laptop, tablet, or smartphone, ensuring you stay productive across all your devices."
+    },
+    {
+      "productName": "Electric Guitar",
+      "price": 7700.99,
+      "photo": "https://m.media-amazon.com/images/I/51lWH6qDaHL.SX679.jpg",
+      "category": "Electronics",
+      "rating": 4.9,
+      "company": "ptron",
+      "quantity": 50,
+      "description": "The Vault RG1 Soloist Electric Guitar exhibits shark-tooth inlays, which add an exquisite appeal to the instrument. Includes a whammy bar for extended playing styles. The chrome plating on the hardware offers the ultimate protection from corrosion, tarnishing and guarantees extreme durability. The basswood construction of the body helps dampen the highs, thus offering smooth and well-rounded tones."
+    },
+    {
+      "productName": "Electric Drumset",
+      "price": 23700.99,
+      "photo": "https://m.media-amazon.com/images/I/610HYt8B+6L.SX679.jpg",
+      "category": "Electronics",
+      "rating": 4.9,
+      "company": "ptron",
+      "quantity": 50,
+      "description": "Unmatched Sound Variety: 2152 high-quality voices, including 658 Indian percussion sounds, 19 Indian vocals, and 23 melodic instruments, ensuring versatile use for any musical occasion."
+    },
+    {
+      "productName": "Cooling Pad",
+      "price": 900.99,
+      "photo": "https://m.media-amazon.com/images/I/71I1POBdJtL.SX679.jpg",
+      "category": "Electronics",
+      "rating": 4.9,
+      "company": "Sony",
+      "quantity": 50,
+      "description": "Amazon Basics Cooling Pad comes with 4 in-built fans providing superior cooling."
+    },
+    {
+      "productName": "Men's chain",
+      "price": 190.99,
+      "photo": "https://m.media-amazon.com/images/I/51P-ohUTdgL.SY625.jpg",
+      "category": "Fashion",
+      "rating": 4.9,
+      "company": "Fastrack",
+      "quantity": 50,
+      "description": "Fashion Frill Exclusive Trendy 3D Bar Silver Black Chain Pendant For Boys Men Collection."
+    },
+    {
+      "productName": "Bracelet",
+      "price": 190.99,
+      "photo": "https://m.media-amazon.com/images/I/61hOQ6WQz+L.SX625.jpg",
+      "category": "Fashion",
+      "rating": 4.9,
+      "company": "Fastrack",
+      "quantity": 50,
+      "description": "Perfect Gift and Daily Wear: A must have accessory for any wardrobe. Classic Design, Stylish & Delicate for Everyday Wear. It is also the best gift for Him, Boyfriend, Brother, Husband or to Dad."
+    },
+    {
+    "productName": "Ring",
+    "price": 1190.99,
+    "photo": "https://m.media-amazon.com/images/I/514CF8BJEtL.jpg",
+    "category": "Fashion",
+    "rating": 4.9,
+    "company": "Fastrack",
+    "quantity": 50,
+    "description": "The product comes in a beautiful elegant ready-to-gift box items is smaller than what appears in photo. Photo enlarged to show detail. To keep this piece shining and scratch-free, avoid contact with chlorine and other harsh chemicals. Do not wear jewelry during rough work and be sure to store it in a fabric-lined jewelry box or pouch. To clean this piece, use warm water, a mild soap, and a soft bristled brush, if needed."
+    },
+    {
+      "productName": "Basmathi - Rice",
+      "price": 899.99,
+      "photo": "https://m.media-amazon.com/images/I/61wSoWl1SBL.SX679.jpg",
+      "category": "Groceries",
+      "rating": 4.6,
+      "company": "DAWAT",
+      "quantity":15,
+      "description": "Experience the authentic taste of India with Dawat Basmathi rice. With perfectly picked out rice grains from the fields, from farmers to yours homes."
+    }
+  ]
+}
